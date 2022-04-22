@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.container::before{
+    content: "";
+    background : url(netflix-bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.container .navbar{
+    height: 100px;
+    display: flex;
+}
+.container .navbar .left{
+    height: 100%;
+    display: flex; 
+    float: left;
+   
+}
+.container .navbar .left img{
+    display: flex;
+    float: left;
+    height: 100px;
+    position: absolute;
+    margin-left: 25px;
+    height: 50px;
+    height: 125px;
+}
+.container .navbar .right{
+    display: flex;
+    float: right;
+    height: 100px;
+    position: absolute;
+    right: 0px;
+    
+}
+.container .navbar select{
+    font-family: cursive;
+    margin: auto;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.container .navbar button{
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    align-items: center;
+    background-color: red;
+    font-family: cursive;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container .navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.container .showcase{
+    padding: 100px 40px;
+}
+
+.container .showcase .content{
+    width: 700px;
+    margin: auto;
+    
+}
+.container .showcase .content h1{
+    font-size: 69px;
+    padding: 72px --1px;
+    text-align: center;
+}
+.container .showcase .content h2{
+    font-size: 1.8rem;
+    padding: 14px;
+    text-align: center;
+}
+
+.container .showcase form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.showcase form h3{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.showcase form .email input{
+    height: 60px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+}
+.showcase form .email button{
+    
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    background: #e50914;
+    cursor: pointer;
+    border: none;
+    margin-left: -5px;
+}
+
+.showcase form .email a{
+    text-decoration: none;
+    color: white;
+}
+
+.showcase form .email button:hover{
+    background-color: red;
+}
+#btn2{
+    height: 48px;
+    width: 154px;
+    font-size: 20px;
+    background: #e50914;
+    cursor: pointer;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 650px;
+    margin-top: 15px;
+}
